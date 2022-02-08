@@ -1,4 +1,4 @@
-@import url(https://kreyhard.github.io/air-asia/css/blocks/base.css);
+@import url(../blocks/base.css);
 @import url(/air-asia/css/blocks/header.css);
 @import url(/air-asia/css/blocks/hello.css);
 @import url(/air-asia/css/blocks/offers.css);
