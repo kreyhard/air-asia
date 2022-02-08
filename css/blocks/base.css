@@ -73,7 +73,7 @@ img {
 }
 
 .wrapper--main {
-  background: url(../../img/1.png) center top no-repeat, url(../../img/2.png) center bottom no-repeat, url(../../img/center.png);
+  background: url(img/1.png) center top no-repeat, url(img/2.png) center bottom no-repeat, url(img/center.png);
 }
 
 .container {
