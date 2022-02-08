@@ -1,7 +1,7 @@
-@import url(css/blocks/base.css);
-@import url(css/blocks/header.css);
-@import url(css/blocks/hello.css);
-@import url(css/blocks/offers.css);
-@import url(css/blocks/news.css);
-@import url(css/blocks/about.css);
-@import url(css/blocks/footer.css);
+@import url(./blocks/base.css);
+@import url(./blocks/header.css);
+@import url(./blocks/hello.css);
+@import url(./blocks/offers.css);
+@import url(./blocks/news.css);
+@import url(./blocks/about.css);
+@import url(./blocks/footer.css);
