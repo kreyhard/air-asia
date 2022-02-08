@@ -73,7 +73,7 @@ img {
 }
 
 .wrapper--main {
-  background: url(img/1.png) center top no-repeat, url(img/2.png) center bottom no-repeat, url(img/center.png);
+  background: url(../../img/1.png) center top no-repeat, url(../../img/2.png) center bottom no-repeat, url(../../img/center.png);
 }
 
 .container {
@@ -143,7 +143,7 @@ img {
 
 .title--fire::after {
   content: "";
-  background: url(img/icons/flame.png), no-repeat;
+  background: url(/img/icons/flame.png), no-repeat;
   margin-left: 10px;
   width: 21px;
   height: 28px;
