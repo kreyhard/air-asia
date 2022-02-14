@@ -39,9 +39,10 @@ h6 {
 }
 
 p {
+  font-family: "OpenSans";
   margin: 0;
   padding: 0px;
-  font-family: OpenSans;
+
   font-size: 19px;
   font-weight: 500;
   line-height: 27px;
@@ -113,10 +114,12 @@ img {
 
 .button--light {
   text-align: centr;
-  max-width: 145px;
+  max-width: 135px;
   background: transparent;
   color: #da0100;
   border: 1px solid;
+  padding-left: 30px;
+  padding-right: 40px;
 }
 
 .button--light:hover {
@@ -143,7 +146,7 @@ img {
 
 .title--fire::after {
   content: "";
-  background: url(../../img/icons/flame.png), no-repeat;
+  background: url(/img/icons/flame.png), no-repeat;
   margin-left: 10px;
   width: 21px;
   height: 28px;
