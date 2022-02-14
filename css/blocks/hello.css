@@ -1,3 +1,7 @@
+.container__hello {
+  padding-left: 1px;
+}
+
 .hello {
   padding-top: 10px;
   padding-left: 2px;
@@ -5,7 +9,8 @@
 }
 
 .hello__title {
-  letter-spacing: 2px;
+  padding-left: 12px;
+  letter-spacing: 3px;
   font-size: 72px;
   line-height: 1.3;
   display: flex;
@@ -16,6 +21,11 @@
 .hello__subtitle {
   font-size: 18px;
   line-height: 84px;
+  padding-left: 7px;
   display: flex;
   align-items: flex-end;
+}
+
+.button--hello {
+  margin-left: 6px;
 }
