@@ -25,33 +25,39 @@
 }
 
 .logo {
-  top: 1 px;
+  width: 85px;
+  height: 36px;
   display: block;
   position: absolute;
-
 }
 
 .menu {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Open Sans";
   position: absolute;
-  left: 156px;
+  left: 159px;
   top: 50%;
   transform: translate(0%, -50%);
 }
 
 .menu__item {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif; 
   display: inline-block;
   vertical-align: middle;
   margin-left: 4px;
   margin-top: 6px;
   left: 50px;
-  margin-right: 54px;
+  margin-right: 45px;
 }
 
 .menu__item:last-child {
-  margin-right: 0;
+margin-right: 0
 }
 
 .menu__list {
+  font-family: "Open Sans";
   font-size: 14px;
 }
 
@@ -67,7 +73,7 @@
   font-size: 11px;
 }
 
-.contacts__phone__one {
+.contacts__phone {
   font-style: normal;
   font-weight: normal;
   font-size: 26px;
@@ -77,13 +83,12 @@
 }
 
 .contacts__info {
-
   text-align: right;
   font-style: normal;
   font-weight: normal;
-  padding-right: 10px;
+  padding-right: 13px;
   font-size: 13px;
-  line-height: 6px;
+  line-height: 3px;
   text-decoration-line: underline;
   color: #ffffff
 }
