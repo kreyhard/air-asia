@@ -45,19 +45,19 @@
 }
 
 .socials__item--icon--telegram .social__link {
-  background-image: url(/img/icons/telegram.png);
+  background-image: url(../../img/icons/telegram.png);
 }
 
 .socials__item--icon--vk .social__link {
-  background-image: url(/img/icons/vk.png);
+  background-image: url(../../img/icons/vk.png);
 }
 
 .socials__item--icon--fb .social__link {
-  background-image: url(/img/icons/fb.png);
+  background-image: url(../../img/icons/fb.png);
 }
 
 .socials__item--icon--insta .social__link {
-  background-image: url(/img/icons/instagram.png);
+  background-image: url(../../img/icons/instagram.png);
 }
 
 .contacts--footer {
