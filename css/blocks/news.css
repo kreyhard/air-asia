@@ -1,9 +1,8 @@
 .news__container {
-  padding-top: 127px;
+  padding-top: 126px;
 }
 
 .news__item {
-  letter-spacing: 1.5px;
   margin-right: 20px;
   margin-left: 1px;
   width: 555px;
@@ -18,7 +17,6 @@
   font-family: "Open Sans";
   margin-top: 0;
   margin-left: 10px;
-  letter-spacing: 1.9px;
 }
 
 .news__list {
@@ -38,19 +36,18 @@
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 9px 28px;
+  padding: 24px 28px;
   min-height: 164px;
 }
 
 .news__date {
   margin-bottom: 4px;
   border-bottom-width: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 13px;
   font-size: 14px;
 }
 
 .news__title--surfer {
-  letter-spacing: 1.2px;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 6px;
@@ -58,7 +55,6 @@
 }
 
 .news__title--ny {
-  letter-spacing: 1.2px;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 9px;
@@ -72,8 +68,8 @@
 
 .pager {
   text-align: center;
-  padding-top: 50px;
-  padding-left: 390px;
+  padding-top: 57px;
+  padding-left: 391px;
   display: inline-flex;
 }
 
