@@ -1,15 +1,12 @@
 .title {
-  margin-top: 510px;
   line-height: 1.4;
   margin-left: 8px;
 }
 
 .title--fire {
-  font-stretch: expanded;
-  word-spacing: normal;
-  letter-spacing: 2px;
-  margin-left: 12px;
-  margin-top: 513px;
+  letter-spacing: 0;
+  margin-left: 9px;
+  margin-top: 509px;
 }
 
 
@@ -35,14 +32,12 @@
 .offers__content {
   width: 362px;
   height: 305px;
-  padding: 24px;
+  padding: 20px;
   padding-top: 18px;
-  padding-bottom: 26px;
   color: #000;
 }
 
 .offers__title {
-  letter-spacing: 1px;
   font-size: 24px;
   line-height: 28px;
   font-weight: 900;
@@ -57,24 +52,38 @@
   font-family: "Open Sans";
   word-spacing: 0.01em;
   font-size: 14px;
-  padding-bottom: 15px;
-  padding-top: 19px;
-  line-height: 22px;
+  padding-bottom: 22px;
+  padding-top: 21px;
+  line-height: 21px;
+}
+
+.offers__features {
+  display: flex;
+  align-items: center;
 }
 
 .offers__feature,
 .offers__feature-icon,
 .offers__feature-text {
-  display: inline-block;
-  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  margin-right: 9px;
+}
+
+.offers__feature {
+  margin-top: 5px;
+}
+
+.offers__feature:last-child {
+  margin-right: 0;
 }
 
 .offers__feature-icon {
-  padding-left: 2px;
+  padding-left: 9px;
 }
 
 .offers__feature-text {
-  margin-right: 9px;
+  margin-right: 7px;
   font-size: 16px;
   line-height: 19px;
   color: #666666;
