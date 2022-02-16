@@ -146,12 +146,12 @@ img {
 
 .title--fire::after {
   content: "";
-  background: url(/img/icons/flame.png), no-repeat;
-  margin-left: 10px;
+  background: url(../../img/icons/flame.png), no-repeat;
+  margin-left: 5px;
   width: 21px;
   height: 28px;
   position: absolute;
-  top: 50%;
+  top: 54%;
   left: 25%;
   transform: translate(-50%, -50%);
 }
