@@ -7,6 +7,10 @@
   width: 1150px;
 }
 
+.footer {
+  padding-top: 21px;
+}
+
 .logo--footer {
   margin-bottom: 7px;
   border-bottom-width: 10px;
@@ -83,7 +87,7 @@
 }
 
 .menu__item--footer {
-  margin-right: 48px;
+  margin-right: 54px;
 }
 
 .menu__item--footer:last-child {
