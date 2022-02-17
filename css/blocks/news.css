@@ -84,6 +84,10 @@
   margin-right: 27px;
 }
 
+.pager__list {
+  transform: translate(0%, -12%);
+}
+
 .pager__item {
   display: inline-block;
   vertical-align: middle;
@@ -91,7 +95,7 @@
 
 .pager__item:hover {
   background-color: #ffffff;
-  border-radius: 100%;
+  border-radius: 50%;
   text-align: center;
   color: #F5170E;
 }
@@ -99,9 +103,9 @@
 .pager__link {
   display: block;
   width: 30px;
-  height: 24px;
+  height: 32px;
   border-radius: 50%;
   text-decoration: none;
   font-weight: bold;
-  line-height: 32ps;
+  line-height: 32px;
 }
