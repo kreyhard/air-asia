@@ -1,12 +1,12 @@
 .about {
+  display: flex;
   padding-top: 145px;
   padding-left: 10px;
 }
 
 .about::before {
   content: "";
-  display: inline-block;
-  vertical-align: top;
+  display: block;
   width: 490px;
   height: 505px;
   background: url(../../img/gates.png) center center / cover no-repeat;
@@ -18,9 +18,7 @@
   color: #000000;
   background: url(../../img/mountains.png);
   width: 785px;
-  height: 455px;
-  display: inline-block;
-  vertical-align: top;
+  min-height: 455px;
   margin-left: -140px;
   margin-top: 93px;
   padding-left: 79px;
