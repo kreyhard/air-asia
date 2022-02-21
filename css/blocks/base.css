@@ -42,7 +42,6 @@ p {
   font-family: "OpenSans";
   margin: 0;
   padding: 0px;
-
   font-size: 19px;
   font-weight: 500;
   line-height: 27px;
@@ -65,16 +64,23 @@ img {
   display: block;
   max-width: 100%;
   max-height: 100%;
-
 }
 
 .wrapper {
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   min-height: 100%;
+  overflow: hidden;
+  min-width: 1200px;
 }
 
 .wrapper--main {
   background: url(../../img/1.png) center top no-repeat, url(../../img/2.png) center bottom no-repeat, url(../../img/center.png);
+}
+
+.wrapper__container {
+  flex: 1;
 }
 
 .container {
