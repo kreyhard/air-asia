@@ -1,6 +1,6 @@
 .top-line {
   min-height: 412px;
-  background: #001821 url(/img/services/elephant.png) right 50% top no-repeat;
+  background: #001821 url(../../img/services/elephant.png) right 50% top no-repeat;
   display: flex;
   flex-direction: column;
   padding-bottom: 5px;
