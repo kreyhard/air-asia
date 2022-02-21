@@ -1,3 +1,8 @@
+.offers__container {
+  width: 1170px;
+  padding-top: 245px;
+}
+
 .title {
   line-height: 1.4;
   margin-left: 8px;
@@ -6,22 +11,21 @@
 .title--fire {
   letter-spacing: 0;
   margin-left: 9px;
-  margin-top: 509px;
 }
 
-
-.offers {
-  margin-bottom: 0;
-  margin-top: 0;
+.offers .offers__list {
+  display: flex;
+  justify-content: space-around;
 }
+
 
 .offers__item {
-  display: inline-block;
-  width: 362px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: calc(100% / 3 - 29px);
   background: #fff;
-  margin-left: 9px;
-  margin-right: 15px;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .offers__header {
